@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{932D8224-11F6-4D07-B109-DA28AD288A63}"
 EndProject
@@ -64,6 +64,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resilience.Http", "src\BuildingBlocks\Resilience\Resilience.Http\Resilience.Http.csproj", "{D92EB452-7A72-4B26-A8ED-0204CD376BC4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStatus", "src\Web\WebStatus\WebStatus.csproj", "{23FB706A-2701-41E9-8BF9-28936001CA41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{2BEADEC9-AA9D-4996-90A7-A1E4DC77D4AE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\delete-images.ps1.txt = ..\..\..\Desktop\delete-images.ps1.txt
+		powerShellCommand.txt = powerShellCommand.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -781,5 +787,6 @@ Global
 		{D13768ED-5AF1-4E09-96DD-FF6E7A2E5E06} = {1EF3AC0F-F27C-46DD-AC53-D762D2C11C45}
 		{D92EB452-7A72-4B26-A8ED-0204CD376BC4} = {D13768ED-5AF1-4E09-96DD-FF6E7A2E5E06}
 		{23FB706A-2701-41E9-8BF9-28936001CA41} = {E279BF0F-7F66-4F3A-A3AB-2CDA66C1CD04}
+		{2BEADEC9-AA9D-4996-90A7-A1E4DC77D4AE} = {932D8224-11F6-4D07-B109-DA28AD288A63}
 	EndGlobalSection
 EndGlobal
